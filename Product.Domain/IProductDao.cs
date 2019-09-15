@@ -7,8 +7,6 @@ namespace Product.Domain
     {     
         List<ProductSummary> GetProducts();
 
-        Guid GetProductId(String name, decimal price);
-
         ProductSummary GetProduct(Guid id);
 
         Guid AddProduct(ProductSummary productSummary);
