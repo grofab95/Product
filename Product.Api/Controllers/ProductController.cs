@@ -10,7 +10,7 @@ namespace Product.Api.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        IProductDao _productDao;
+        private IProductDao _productDao;
 
         public ProductController(IProductDao productDao)
         {
